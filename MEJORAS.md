@@ -52,14 +52,12 @@ La sección de eventos (bodas, corporativos, catering) tiene buen texto pero el 
 
 ---
 
-### 4. INSTAGRAM GRID — sección feed *(MEDIA PRIORIDAD)*
-**Ubicación en el código:** Los 4 divs `.insta-post` con fondos de degradado de colores.
-
-El grid de Instagram muestra placeholders animados. Lo ideal es reemplazarlos con fotos reales del Instagram de la marca, o con las mejores fotos del catálogo.
-
-- **Qué fotos poner:** Las 4 mejores fotos del Instagram `@sunshinecoffee11`. Idealmente: Cold Brew, el Migao, los empaques de café, una de ambiente.
-- **Dimensiones:** Cuadradas, mínimo 400×400 px cada una.
-- **Cómo agregar:** Reemplazar el `style="background:..."` de cada `.insta-post` con `<img src="TU_IMAGEN" alt="...">` dentro del div.
+### 4. INSTAGRAM GRID — sección feed ✅ COMPLETADO
+4 fotos reales embebidas en el bundle. Contador animado de likes y comentarios:
+- Al hacer scroll a la sección los números suben de 0 al valor real (900ms)
+- En desktop, hover reinicia el contador para volver a animar
+- En mobile, overlay siempre visible y grid cambia a 2×2
+- Fotos: "Bosa ya estamos aquí", barista en la barra, cold brew con laptop, fundadoras en café de la esquina
 
 ---
 
